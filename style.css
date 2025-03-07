@@ -57,3 +57,39 @@ body {
 .highlight.first video {
   object-position: bottom;
 }
+
+@media (max-width: 768px) {
+  .text-block {
+    font-size: 1.5em; /* Decrease font size for smaller screens */
+  }
+
+  .highlight {
+    width: 80px; /* Adjust width for smaller screens */
+  }
+
+  .highlight.small {
+    width: 40px; /* Adjust width for smaller screens */
+  }
+
+  .highlight.full {
+    width: 160px; /* Adjust width for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .text-block {
+    font-size: 1.2em; /* Further decrease font size for very small screens */
+  }
+
+  .highlight {
+    width: 60px; /* Adjust width for very small screens */
+  }
+
+  .highlight.small {
+    width: 30px; /* Adjust width for very small screens */
+  }
+
+  .highlight.full {
+    width: 120px; /* Adjust width for very small screens */
+  }
+}
